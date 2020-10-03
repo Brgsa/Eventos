@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width-device-width, initial-scale=1.0'>
+	<title>mouseout</title>
+	<style>
+		div{
+			height: 50vw;
+			width: 50vw;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<div onmousemove="debug(event)" onmouseout="debug(event)"></div>
+
+<script>
+	function debug(e) {
+		console.log("Evento: " + e.type);
+		
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width-device-width, initial-scale=1.0'>
+	<title>pageshow</title>
+</head>
+<body onpageshow="debug(event)">
+
+
+<script>
+	function debug(e) {
+		console.log("Evento: " + e.type);
+		alert("Evento: " + e.type);
+	}
+</script>
+
+</body>
+</html>
